@@ -16,6 +16,7 @@ defmodule ElixirPlugEcho.MixProject do
     [
       extra_applications: [:logger],
       mod: {ElixirPlugEcho, []}
+      #:mod - specifies a module to invoke when the application is started. It must be in the format {Mod, args} where args is often an empty list. The module specified must implement the callbacks defined by the Application module.
     ]
   end
 
